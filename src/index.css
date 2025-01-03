@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Wondermail;
+  src: url(./assets/wondermail.ttf) format("truetype");
+}
+
+body {
+  @apply bg-sky-200 font-[Wondermail] text-2xl tracking-wide;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
