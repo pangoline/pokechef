@@ -2,35 +2,71 @@ import { Recipe } from "../App";
 
 //All data was obtained from Bulbapedia
 export const ingredientData = [
-  { name: "Bean Sausage", img: "/ingredients/60px-Sleep_Bean_Sausage.png" },
-  { name: "Fancy Apple", img: "/ingredients/60px-Sleep_Fancy_Apple.png" },
-  { name: "Fancy Egg", img: "/ingredients/60px-Sleep_Fancy_Egg.png" },
-  { name: "Fiery Herb", img: "/ingredients/60px-Sleep_Fiery_Herb.png" },
+  {
+    name: "Bean Sausage",
+    img: "/pokechef/ingredients/60px-Sleep_Bean_Sausage.png",
+  },
+  {
+    name: "Fancy Apple",
+    img: "/pokechef/ingredients/60px-Sleep_Fancy_Apple.png",
+  },
+  { name: "Fancy Egg", img: "/pokechef/ingredients/60px-Sleep_Fancy_Egg.png" },
+  {
+    name: "Fiery Herb",
+    img: "/pokechef/ingredients/60px-Sleep_Fiery_Herb.png",
+  },
   {
     name: "Greengrass Corn",
-    img: "/ingredients/60px-Sleep_Greengrass_Corn.png",
+    img: "/pokechef/ingredients/60px-Sleep_Greengrass_Corn.png",
   },
   {
     name: "Greengrass Soybeans",
-    img: "/ingredients/60px-Sleep_Greengrass_Soybeans.png",
+    img: "/pokechef/ingredients/60px-Sleep_Greengrass_Soybeans.png",
   },
-  { name: "Honey", img: "/ingredients/60px-Sleep_Honey.png" },
-  { name: "Large Leek", img: "/ingredients/60px-Sleep_Large_Leek.png" },
-  { name: "Moomoo Milk", img: "/ingredients/60px-Sleep_Moomoo_Milk.png" },
-  { name: "Pure Oil", img: "/ingredients/60px-Sleep_Pure_Oil.png" },
-  { name: "Rousing Coffee", img: "/ingredients/60px-Sleep_Rousing_Coffee.png" },
-  { name: "Slowpoke Tail", img: "/ingredients/60px-Sleep_Slowpoke_Tail.png" },
-  { name: "Snoozy Tomato", img: "/ingredients/60px-Sleep_Snoozy_Tomato.png" },
-  { name: "Soft Potato", img: "/ingredients/60px-Sleep_Soft_Potato.png" },
-  { name: "Soothing Cacao", img: "/ingredients/60px-Sleep_Soothing_Cacao.png" },
-  { name: "Tasty Mushroom", img: "/ingredients/60px-Sleep_Tasty_Mushroom.png" },
-  { name: "Warming Ginger", img: "/ingredients/60px-Sleep_Warming_Ginger.png" },
+  { name: "Honey", img: "/pokechef/ingredients/60px-Sleep_Honey.png" },
+  {
+    name: "Large Leek",
+    img: "/pokechef/ingredients/60px-Sleep_Large_Leek.png",
+  },
+  {
+    name: "Moomoo Milk",
+    img: "/pokechef/ingredients/60px-Sleep_Moomoo_Milk.png",
+  },
+  { name: "Pure Oil", img: "/pokechef/ingredients/60px-Sleep_Pure_Oil.png" },
+  {
+    name: "Rousing Coffee",
+    img: "/pokechef/ingredients/60px-Sleep_Rousing_Coffee.png",
+  },
+  {
+    name: "Slowpoke Tail",
+    img: "/pokechef/ingredients/60px-Sleep_Slowpoke_Tail.png",
+  },
+  {
+    name: "Snoozy Tomato",
+    img: "/pokechef/ingredients/60px-Sleep_Snoozy_Tomato.png",
+  },
+  {
+    name: "Soft Potato",
+    img: "/pokechef/ingredients/60px-Sleep_Soft_Potato.png",
+  },
+  {
+    name: "Soothing Cacao",
+    img: "/pokechef/ingredients/60px-Sleep_Soothing_Cacao.png",
+  },
+  {
+    name: "Tasty Mushroom",
+    img: "/pokechef/ingredients/60px-Sleep_Tasty_Mushroom.png",
+  },
+  {
+    name: "Warming Ginger",
+    img: "/pokechef/ingredients/60px-Sleep_Warming_Ginger.png",
+  },
 ];
 
 export const recipeData: Recipe[] = [
   {
     name: "Mixed Curry",
-    img: "/meals/60px-Dishes_Mixed_Curry.png",
+    img: "/pokechef/meals/60px-Dishes_Mixed_Curry.png",
     minPotSize: null,
     baseStrength: null,
     ingredients: [],
@@ -38,7 +74,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Fancy Apple Curry",
-    img: "/meals/60px-Dishes_Fancy_Apple_Curry.png",
+    img: "/pokechef/meals/60px-Dishes_Fancy_Apple_Curry.png",
     minPotSize: 7,
     baseStrength: 668,
     ingredients: [{ name: "Fancy Apple", amount: 7 }],
@@ -46,7 +82,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Grilled Tail Curry",
-    img: "/meals/60px-Dishes_Grilled_Tail_Curry.png",
+    img: "/pokechef/meals/60px-Dishes_Grilled_Tail_Curry.png",
     minPotSize: 33,
     baseStrength: 7483,
     ingredients: [
@@ -57,7 +93,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Solar Power" Tomato Curry',
-    img: "/meals/60px-Dishes_Solar_Power_Tomato_Curry.png",
+    img: "/pokechef/meals/60px-Dishes_Solar_Power_Tomato_Curry.png",
     minPotSize: 15,
     baseStrength: 1943,
     ingredients: [
@@ -68,7 +104,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Dream Eater" Butter Curry',
-    img: "/meals/60px-Dishes_Dream_Eater_Butter_Curry.png",
+    img: "/pokechef/meals/60px-Dishes_Dream_Eater_Butter_Curry.png",
     minPotSize: 55,
     baseStrength: 9010,
     ingredients: [
@@ -81,7 +117,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Spicy Leek Curry",
-    img: "/meals/60px-Dishes_Spicy_Leek_Curry.png",
+    img: "/pokechef/meals/60px-Dishes_Spicy_Leek_Curry.png",
     minPotSize: 32,
     baseStrength: 5900,
     ingredients: [
@@ -93,7 +129,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Spore" Mushroom Curry',
-    img: "/meals/60px-Dishes_Spore_Mushroom_Curry.png",
+    img: "/pokechef/meals/60px-Dishes_Spore_Mushroom_Curry.png",
     minPotSize: 23,
     baseStrength: 4041,
     ingredients: [
@@ -104,7 +140,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Egg Bomb" Curry',
-    img: "/meals/60px-Dishes_Egg_Bomb_Curry.png",
+    img: "/pokechef/meals/60px-Dishes_Egg_Bomb_Curry.png",
     minPotSize: 35,
     baseStrength: 4523,
     ingredients: [
@@ -117,7 +153,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Hearty Cheeseburger Curry",
-    img: "/meals/60px-Dishes_Hearty_Cheeseburger_Curry.png",
+    img: "/pokechef/meals/60px-Dishes_Hearty_Cheeseburger_Curry.png",
     minPotSize: 16,
     baseStrength: 1785,
     ingredients: [
@@ -128,7 +164,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Soft Potato Chowder",
-    img: "/meals/60px-Dishes_Soft_Potato_Chowder.png",
+    img: "/pokechef/meals/60px-Dishes_Soft_Potato_Chowder.png",
     minPotSize: 22,
     baseStrength: 3089,
     ingredients: [
@@ -140,7 +176,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Simple Chowder",
-    img: "/meals/60px-Dishes_Simple_Chowder.png",
+    img: "/pokechef/meals/60px-Dishes_Simple_Chowder.png",
     minPotSize: 7,
     baseStrength: 727,
     ingredients: [{ name: "Moomoo Milk", amount: 7 }],
@@ -148,7 +184,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Beanburger Curry",
-    img: "/meals/60px-Dishes_Beanburger_Curry.png",
+    img: "/pokechef/meals/60px-Dishes_Beanburger_Curry.png",
     minPotSize: 7,
     baseStrength: 764,
     ingredients: [{ name: "Bean Sausage", amount: 7 }],
@@ -156,7 +192,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Mild Honey Curry",
-    img: "/meals/60px-Dishes_Mild_Honey_Curry.png",
+    img: "/pokechef/meals/60px-Dishes_Mild_Honey_Curry.png",
     minPotSize: 7,
     baseStrength: 749,
     ingredients: [{ name: "Honey", amount: 7 }],
@@ -164,7 +200,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Ninja Curry",
-    img: "/meals/60px-Dishes_Ninja_Curry.png",
+    img: "/pokechef/meals/60px-Dishes_Ninja_Curry.png",
     minPotSize: 50,
     baseStrength: 9445,
     ingredients: [
@@ -177,7 +213,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Drought" Katsu Curry',
-    img: "/meals/60px-Dishes_Drought_Katsu_Curry.png",
+    img: "/pokechef/meals/60px-Dishes_Drought_Katsu_Curry.png",
     minPotSize: 15,
     baseStrength: 1881,
     ingredients: [
@@ -188,7 +224,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Melty Omelette Curry",
-    img: "/meals/60px-Dishes_Melty_Omelette_Curry.png",
+    img: "/pokechef/meals/60px-Dishes_Melty_Omelette_Curry.png",
     minPotSize: 16,
     baseStrength: 2009,
     ingredients: [
@@ -199,7 +235,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Bulk Up" Bean Curry',
-    img: "/meals/60px-Dishes_Bulk_Up_Bean_Curry.png",
+    img: "/pokechef/meals/60px-Dishes_Bulk_Up_Bean_Curry.png",
     minPotSize: 26,
     baseStrength: 3274,
     ingredients: [
@@ -212,7 +248,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Limber" Corn Stew',
-    img: "/meals/60px-Dishes_Limber_Corn_Stew.png",
+    img: "/pokechef/meals/60px-Dishes_Limber_Corn_Stew.png",
     minPotSize: 30,
     baseStrength: 4670,
     ingredients: [
@@ -224,7 +260,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Inferno" Corn Keema Curry',
-    img: "/meals/60px-Dishes_Inferno_Corn_Keema_Curry.png",
+    img: "/pokechef/meals/60px-Dishes_Inferno_Corn_Keema_Curry.png",
     minPotSize: 77,
     baseStrength: 13690,
     ingredients: [
@@ -237,7 +273,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Dizzy Punch" Spicy Curry',
-    img: "/meals/60px-Dishes_Dizzy_Punch_Spicy_Curry.png",
+    img: "/pokechef/meals/60px-Dishes_Dizzy_Punch_Spicy_Curry.png",
     minPotSize: 33,
     baseStrength: 5702,
     ingredients: [
@@ -249,7 +285,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Hidden Power" Perk-Up Stew',
-    img: "/meals/60px-Dishes_Hidden_Power_Perk-Up_Stew.png",
+    img: "/pokechef/meals/60px-Dishes_Hidden_Power_Perk-Up_Stew.png",
     minPotSize: 92,
     baseStrength: 19061,
     ingredients: [
@@ -262,7 +298,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Mixed Salad",
-    img: "/meals/60px-Dishes_Mixed_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Mixed_Salad.png",
     minPotSize: null,
     baseStrength: null,
     ingredients: [],
@@ -270,7 +306,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Slowpoke Tail Pepper Salad",
-    img: "/meals/60px-Dishes_Slowpoke_Tail_Pepper_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Slowpoke_Tail_Pepper_Salad.png",
     minPotSize: 35,
     baseStrength: 8169,
     ingredients: [
@@ -282,7 +318,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Spore" Mushroom Salad',
-    img: "/meals/60px-Dishes_Spore_Mushroom_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Spore_Mushroom_Salad.png",
     minPotSize: 33,
     baseStrength: 5858,
     ingredients: [
@@ -294,7 +330,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Snow Cloak" Caesar Salad',
-    img: "/meals/60px-Dishes_Snow_Cloak_Caesar_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Snow_Cloak_Caesar_Salad.png",
     minPotSize: 16,
     baseStrength: 1774,
     ingredients: [
@@ -305,7 +341,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Gluttony" Potato Salad',
-    img: "/meals/60px-Dishes_Gluttony_Potato_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Gluttony_Potato_Salad.png",
     minPotSize: 36,
     baseStrength: 5040,
     ingredients: [
@@ -318,7 +354,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Water Veil" Tofu Salad',
-    img: "/meals/60px-Dishes_Water_Veil_Tofu_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Water_Veil_Tofu_Salad.png",
     minPotSize: 24,
     baseStrength: 3113,
     ingredients: [
@@ -329,7 +365,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Superpower" Extreme Salad',
-    img: "/meals/60px-Dishes_Superpower_Extreme_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Superpower_Extreme_Salad.png",
     minPotSize: 23,
     baseStrength: 2958,
     ingredients: [
@@ -342,7 +378,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Bean Ham Salad",
-    img: "/meals/60px-Dishes_Bean_Ham_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Bean_Ham_Salad.png",
     minPotSize: 8,
     baseStrength: 873,
     ingredients: [{ name: "Bean Sausage", amount: 8 }],
@@ -350,7 +386,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Snoozy Tomato Salad",
-    img: "/meals/60px-Dishes_Snoozy_Tomato_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Snoozy_Tomato_Salad.png",
     minPotSize: 8,
     baseStrength: 933,
     ingredients: [{ name: "Snoozy Tomato", amount: 8 }],
@@ -358,7 +394,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Moomoo Caprese Salad",
-    img: "/meals/60px-Dishes_Moomoo_Caprese_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Moomoo_Caprese_Salad.png",
     minPotSize: 23,
     baseStrength: 2856,
     ingredients: [
@@ -370,7 +406,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Contrary" Chocolate Meat Salad',
-    img: "/meals/60px-Dishes_Contrary_Chocolate_Meat_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Contrary_Chocolate_Meat_Salad.png",
     minPotSize: 23,
     baseStrength: 3558,
     ingredients: [
@@ -381,7 +417,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Overheat" Ginger Salad',
-    img: "/meals/60px-Dishes_Overheat_Ginger_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Overheat_Ginger_Salad.png",
     minPotSize: 35,
     baseStrength: 5225,
     ingredients: [
@@ -393,7 +429,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Fancy Apple Salad",
-    img: "/meals/60px-Dishes_Fancy_Apple_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Fancy_Apple_Salad.png",
     minPotSize: 8,
     baseStrength: 763,
     ingredients: [{ name: "Fancy Apple", amount: 8 }],
@@ -401,7 +437,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Immunity" Leek Salad',
-    img: "/meals/60px-Dishes_Immunity_Leek_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Immunity_Leek_Salad.png",
     minPotSize: 15,
     baseStrength: 2658,
     ingredients: [
@@ -412,7 +448,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Dazzling" Apple Cheese Salad',
-    img: "/meals/60px-Dishes_Dazzling_Apple_Cheese_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Dazzling_Apple_Cheese_Salad.png",
     minPotSize: 23,
     baseStrength: 2578,
     ingredients: [
@@ -424,7 +460,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Ninja Salad",
-    img: "/meals/60px-Dishes_Ninja_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Ninja_Salad.png",
     minPotSize: 57,
     baseStrength: 11659,
     ingredients: [
@@ -437,7 +473,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Heat Wave" Tofu Salad',
-    img: "/meals/60px-Dishes_Heat_Wave_Tofu_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Heat_Wave_Tofu_Salad.png",
     minPotSize: 16,
     baseStrength: 1976,
     ingredients: [
@@ -448,7 +484,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Greengrass Salad",
-    img: "/meals/60px-Dishes_Greengrass_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Greengrass_Salad.png",
     minPotSize: 62,
     baseStrength: 11393,
     ingredients: [
@@ -461,7 +497,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Calm Mind" Fruit Salad',
-    img: "/meals/60px-Dishes_Calm_Mind_Fruit_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Calm_Mind_Fruit_Salad.png",
     minPotSize: 49,
     baseStrength: 7675,
     ingredients: [
@@ -473,7 +509,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Fury Attack" Corn Salad',
-    img: "/meals/60px-Dishes_Fury_Attack_Corn_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Fury_Attack_Corn_Salad.png",
     minPotSize: 17,
     baseStrength: 2785,
     ingredients: [
@@ -484,7 +520,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Cross Chop" Salad',
-    img: "/meals/60px-Dishes_Cross_Chop_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Cross_Chop_Salad.png",
     minPotSize: 56,
     baseStrength: 8755,
     ingredients: [
@@ -497,7 +533,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Defiant" Coffee-Dressed Salad',
-    img: "/meals/60px-Dishes_Defiant_Coffee-Dressed_Salad.png",
+    img: "/pokechef/meals/60px-Dishes_Defiant_Coffee-Dressed_Salad.png",
     minPotSize: 100,
     baseStrength: 20218,
     ingredients: [
@@ -510,7 +546,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Mixed Juice",
-    img: "/meals/60px-Dishes_Mixed_Juice.png",
+    img: "/pokechef/meals/60px-Dishes_Mixed_Juice.png",
     minPotSize: null,
     baseStrength: null,
     ingredients: [],
@@ -518,7 +554,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Fluffy" Sweet Potatoes',
-    img: "/meals/60px-Dishes_Fluffy_Sweet_Potatoes.png",
+    img: "/pokechef/meals/60px-Dishes_Fluffy_Sweet_Potatoes.png",
     minPotSize: 14,
     baseStrength: 1783,
     ingredients: [
@@ -529,7 +565,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Steadfast" Ginger Cookies',
-    img: "/meals/60px-Dishes_Steadfast_Ginger_Cookies.png",
+    img: "/pokechef/meals/60px-Dishes_Steadfast_Ginger_Cookies.png",
     minPotSize: 35,
     baseStrength: 4921,
     ingredients: [
@@ -542,7 +578,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Fancy Apple Juice",
-    img: "/meals/60px-Dishes_Fancy_Apple_Juice.png",
+    img: "/pokechef/meals/60px-Dishes_Fancy_Apple_Juice.png",
     minPotSize: 8,
     baseStrength: 763,
     ingredients: [{ name: "Fancy Apple", amount: 8 }],
@@ -550,7 +586,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Craft Soda Pop",
-    img: "/meals/60px-Dishes_Craft_Soda_Pop.png",
+    img: "/pokechef/meals/60px-Dishes_Craft_Soda_Pop.png",
     minPotSize: 9,
     baseStrength: 964,
     ingredients: [{ name: "Honey", amount: 9 }],
@@ -558,7 +594,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Ember" Ginger Tea',
-    img: "/meals/60px-Dishes_Ember_Ginger_Tea.png",
+    img: "/pokechef/meals/60px-Dishes_Ember_Ginger_Tea.png",
     minPotSize: 16,
     baseStrength: 1788,
     ingredients: [
@@ -569,7 +605,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Jigglypuff's Fruity Flan",
-    img: "/meals/60px-Dishes_Jigglypuff_Fruity_Flan.png",
+    img: "/pokechef/meals/60px-Dishes_Jigglypuff_Fruity_Flan.png",
     minPotSize: 55,
     baseStrength: 7594,
     ingredients: [
@@ -582,7 +618,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Lovely Kiss" Smoothie',
-    img: "/meals/60px-Dishes_Lovely_Kiss_Smoothie.png",
+    img: "/pokechef/meals/60px-Dishes_Lovely_Kiss_Smoothie.png",
     minPotSize: 35,
     baseStrength: 4734,
     ingredients: [
@@ -595,7 +631,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Lucky Chant" Apple Pie',
-    img: "/meals/60px-Dishes_Lucky_Chant_Apple_Pie.png",
+    img: "/pokechef/meals/60px-Dishes_Lucky_Chant_Apple_Pie.png",
     minPotSize: 16,
     baseStrength: 1634,
     ingredients: [
@@ -606,7 +642,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Neroli's Restorative Tea",
-    img: "/meals/60px-Dishes_Neroli_Restorative_Tea.png",
+    img: "/pokechef/meals/60px-Dishes_Neroli_Restorative_Tea.png",
     minPotSize: 35,
     baseStrength: 5065,
     ingredients: [
@@ -618,7 +654,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Sweet Scent" Chocolate Cake',
-    img: "/meals/60px-Dishes_Sweet_Scent_Chocolate_Cake.png",
+    img: "/pokechef/meals/60px-Dishes_Sweet_Scent_Chocolate_Cake.png",
     minPotSize: 24,
     baseStrength: 3280,
     ingredients: [
@@ -630,7 +666,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Warm Moomoo Milk",
-    img: "/meals/60px-Dishes_Warm_Moomoo_Milk.png",
+    img: "/pokechef/meals/60px-Dishes_Warm_Moomoo_Milk.png",
     minPotSize: 7,
     baseStrength: 727,
     ingredients: [{ name: "Moomoo Milk", amount: 7 }],
@@ -638,7 +674,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Cloud Nine" Soy Cake',
-    img: "/meals/60px-Dishes_Cloud_Nine_Soy_Cake.png",
+    img: "/pokechef/meals/60px-Dishes_Cloud_Nine_Soy_Cake.png",
     minPotSize: 15,
     baseStrength: 1798,
     ingredients: [
@@ -649,7 +685,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Hustle" Protein Smoothie',
-    img: "/meals/60px-Dishes_Hustle_Protein_Smoothie.png",
+    img: "/pokechef/meals/60px-Dishes_Hustle_Protein_Smoothie.png",
     minPotSize: 23,
     baseStrength: 3168,
     ingredients: [
@@ -660,7 +696,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Stalwart" Vegetable Juice',
-    img: "/meals/60px-Dishes_Stalwart_Vegetable_Juice.png",
+    img: "/pokechef/meals/60px-Dishes_Stalwart_Vegetable_Juice.png",
     minPotSize: 16,
     baseStrength: 1798,
     ingredients: [
@@ -671,7 +707,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Big Malasada",
-    img: "/meals/60px-Dishes_Big_Malasada.png",
+    img: "/pokechef/meals/60px-Dishes_Big_Malasada.png",
     minPotSize: 23,
     baseStrength: 2927,
     ingredients: [
@@ -683,7 +719,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Huge Power" Soy Donuts',
-    img: "/meals/60px-Dishes_Huge_Power_Soy_Donuts.png",
+    img: "/pokechef/meals/60px-Dishes_Huge_Power_Soy_Donuts.png",
     minPotSize: 35,
     baseStrength: 5547,
     ingredients: [
@@ -695,7 +731,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Explosion" Popcorn',
-    img: "/meals/60px-Dishes_Explosion_Popcorn.png",
+    img: "/pokechef/meals/60px-Dishes_Explosion_Popcorn.png",
     minPotSize: 36,
     baseStrength: 6048,
     ingredients: [
@@ -707,7 +743,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Teatime" Corn Scones',
-    img: "/meals/60px-Dishes_Teatime_Corn_Scones.png",
+    img: "/pokechef/meals/60px-Dishes_Teatime_Corn_Scones.png",
     minPotSize: 67,
     baseStrength: 10925,
     ingredients: [
@@ -720,7 +756,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Petal Dance" Chocolate Tart',
-    img: "/meals/60px-Dishes_Petal_Dance_Chocolate_Tart.png",
+    img: "/pokechef/meals/60px-Dishes_Petal_Dance_Chocolate_Tart.png",
     minPotSize: 22,
     baseStrength: 3314,
     ingredients: [
@@ -731,7 +767,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Flower Gift" Macarons',
-    img: "/meals/60px-Dishes_Flower_Gift_Macarons.png",
+    img: "/pokechef/meals/60px-Dishes_Flower_Gift_Macarons.png",
     minPotSize: 77,
     baseStrength: 13834,
     ingredients: [
@@ -744,7 +780,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Early Bird" Coffee Jelly',
-    img: "/meals/60px-Dishes_Early_Bird_Coffee_Jelly.png",
+    img: "/pokechef/meals/60px-Dishes_Early_Bird_Coffee_Jelly.png",
     minPotSize: 42,
     baseStrength: 6793,
     ingredients: [
@@ -756,7 +792,7 @@ export const recipeData: Recipe[] = [
   },
   {
     name: '"Zing Zap" Spiced Cola',
-    img: "/meals/60px-Dishes_Zing_Zap_Spiced_Cola.png",
+    img: "/pokechef/meals/60px-Dishes_Zing_Zap_Spiced_Cola.png",
     minPotSize: 87,
     baseStrength: 17494,
     ingredients: [

@@ -8,7 +8,7 @@ interface HeaderProps {
 const Header = ({ showInfo, setShowInfo }: HeaderProps) => {
   return (
     <header className="bg-white py-4 px-8 flex justify-between items-center z-10">
-      <img src="/logo.png" className="max-h-10" />
+      <img src="/pokechef/logo.png" className="max-h-10" />
       <div className="md:block hidden">
         What's in my <span className="line-through">pantry</span> bag?
       </div>
