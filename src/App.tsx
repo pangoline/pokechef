@@ -36,7 +36,6 @@ function App() {
   >([]);
   const [recipeType, setRecipeType] = useState<RecipeType>("Curries/Stews");
   const [maxPotSize, setMaxPotSize] = useState<number>(0);
-  const [maxPotOn, setMaxPotOn] = useState<boolean>(false);
   const [excludedIngredients, setExcludedIngredients] = useState<string[]>([]);
   const [showStats, setShowStats] = useState<boolean>(false);
   const [showInfo, setShowInfo] = useState<boolean>(false);
@@ -65,7 +64,6 @@ function App() {
         typeof localObj.maxPotSize === "number" &&
         localObj.maxPotSize > 0
       ) {
-        setMaxPotOn(true);
         setMaxPotSize(localObj.maxPotSize);
       }
 
@@ -116,9 +114,7 @@ function App() {
 
   const filteredRecipeData = recipeData
     .filter((r) => r.type === recipeType && r.baseStrength && r.minPotSize)
-    .filter((r) =>
-      !maxPotOn || maxPotSize === 0 ? r : r.minPotSize! <= maxPotSize
-    )
+    .filter((r) => (maxPotSize === 0 ? r : r.minPotSize! <= maxPotSize))
     .filter(
       (r) =>
         excludedIngredients.filter((i) =>
@@ -181,8 +177,6 @@ function App() {
           <RecipeFilters
             recipeType={recipeType}
             setRecipeType={setRecipeType}
-            maxPotOn={maxPotOn}
-            setMaxPotOn={setMaxPotOn}
             maxPotSize={maxPotSize}
             setMaxPotSize={setMaxPotSize}
             minPotSizeForGroup={minPotSizeForGroup}

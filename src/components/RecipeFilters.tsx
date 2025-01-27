@@ -5,8 +5,6 @@ import { faMinus, faPlus, faXmark } from "@fortawesome/free-solid-svg-icons";
 interface RecipeFiltersProps {
   recipeType: RecipeType;
   setRecipeType: React.Dispatch<React.SetStateAction<RecipeType>>;
-  maxPotOn: boolean;
-  setMaxPotOn: React.Dispatch<React.SetStateAction<boolean>>;
   maxPotSize: number;
   setMaxPotSize: React.Dispatch<React.SetStateAction<number>>;
   minPotSizeForGroup: number;
@@ -18,7 +16,6 @@ const RecipeFilters = ({
   setMaxPotSize,
   maxPotSize,
   minPotSizeForGroup,
-  maxPotOn,
   recipeType,
   setRecipeType,
   showStats,
@@ -80,15 +77,15 @@ const RecipeFilters = ({
         </button>
       </div>
       <div className="flex gap-4 items-center">
-        <label className={!maxPotOn ? "opacity-50" : ""}>Max pot size:</label>
+        <label htmlFor="max_pot">Max pot size:</label>
         <input
           type="text"
+          id="max_pot"
           className={
             (maxPotSize !== 0 && maxPotSize < minPotSizeForGroup
               ? "text-red-700 border-red-700 "
               : "") + "rounded-lg w-24 px-4 border-2"
           }
-          disabled={!maxPotOn}
           onChange={(e) => handlePotInput(e)}
           value={maxPotSize === 0 ? "" : maxPotSize}
         />
