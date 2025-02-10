@@ -803,4 +803,29 @@ export const recipeData: Recipe[] = [
     ],
     type: "Desserts/Drinks",
   },
+  {
+    name: "The other new recipe",
+    img: "/pokechef/meals/60px-Dishes_Zing_Zap_Spiced_Cola.png",
+    minPotSize: 40,
+    baseStrength: 10000,
+    ingredients: [
+      { name: "Rousing Coffee", amount: 14 },
+      { name: "Greengrass Corn", amount: 14 },
+      { name: "Moomoo Milk", amount: 12 },
+    ],
+    type: "Desserts/Drinks",
+  },
+  {
+    name: "Clodsire Eclair",
+    img: "/pokechef/meals/60px-Dishes_Zing_Zap_Spiced_Cola.png",
+    minPotSize: 102,
+    baseStrength: 100000,
+    ingredients: [
+      { name: "Soothing Cacao", amount: 30 },
+      { name: "Moomoo Milk", amount: 26 },
+      { name: "Rousing Coffee", amount: 24 },
+      { name: "Honey", amount: 22 },
+    ],
+    type: "Desserts/Drinks",
+  },
 ];
