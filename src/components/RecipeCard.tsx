@@ -24,7 +24,13 @@ const RecipeCard = ({
           {recipe.baseStrength ? recipe.baseStrength : 0}
         </div>
       </div>
-      <img src={recipe.img} className="mx-auto" alt={recipe.name} />
+      <img
+        src={recipe.img}
+        className="mx-auto"
+        alt={recipe.name}
+        width={60}
+        height={60}
+      />
       <div className="text-center text-3xl bg-sky-700 text-white px-4 -mx-4 my-2">
         {recipe.name}
       </div>

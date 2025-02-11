@@ -804,10 +804,10 @@ export const recipeData: Recipe[] = [
     type: "Desserts/Drinks",
   },
   {
-    name: "The other new recipe",
-    img: "/pokechef/meals/60px-Dishes_Zing_Zap_Spiced_Cola.png",
+    name: '"Mold Breaker" Corn Tiramisu',
+    img: "/pokechef/meals/moldbreakercorntiramisu.png",
     minPotSize: 40,
-    baseStrength: 10000,
+    baseStrength: 7125,
     ingredients: [
       { name: "Rousing Coffee", amount: 14 },
       { name: "Greengrass Corn", amount: 14 },
@@ -817,9 +817,9 @@ export const recipeData: Recipe[] = [
   },
   {
     name: "Clodsire Eclair",
-    img: "/pokechef/meals/60px-Dishes_Zing_Zap_Spiced_Cola.png",
+    img: "/pokechef/meals/clodsireeclair.png",
     minPotSize: 102,
-    baseStrength: 100000,
+    baseStrength: 20885,
     ingredients: [
       { name: "Soothing Cacao", amount: 30 },
       { name: "Moomoo Milk", amount: 26 },
