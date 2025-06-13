@@ -828,4 +828,30 @@ export const recipeData: Recipe[] = [
     ],
     type: "Desserts/Drinks",
   },
+  {
+    name: "'Petal Blizzard' Layered Salad",
+    img: "/pokechef/meals/60px-Dishes_Petal_Blizzard_Layered_Salad.png",
+    minPotSize: 69,
+    baseStrength: 11881,
+    ingredients: [
+      { name: "Fancy Egg", amount: 25 },
+      { name: "Pure Oil", amount: 17 },
+      { name: "Soft Potato", amount: 15 },
+      { name: "Bean Sausage", amount: 12 },
+    ],
+    type: "Salads",
+  },
+  {
+    name: "'Apple Acid' Yogurt-Dressed Salad",
+    img: "/pokechef/meals/60px-Dishes_Apple_Acid_Yogurt-Dressed_Salad.png",
+    minPotSize: 104,
+    baseStrength: 19293,
+    ingredients: [
+      { name: "Fancy Egg", amount: 35 },
+      { name: "Fancy Apple", amount: 28 },
+      { name: "Snoozy Tomato", amount: 23 },
+      { name: "Bean Sausage", amount: 18 },
+    ],
+    type: "Salads",
+  },
 ];
